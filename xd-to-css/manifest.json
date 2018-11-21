@@ -1,0 +1,18 @@
+{
+    "id": "ef9f224a",
+    "name": "Hellow World sample plugin",
+    "host": {
+        "app": "XD",
+        // version of app itself
+        "minVersion": "13.0.0"
+    },
+    // version of app itself
+    "version": "1.0.0",
+    "uiEntryPoints": [
+        {
+            "type": "menu",
+            "label": "Create Rectangle",
+            "commandId": "createRectangle"
+        }
+    ]
+}
