@@ -1,16 +1,24 @@
 {
     "id": "ef9f224a",
-    "name": "Hello World sample plugin",
+    "name": "Copy CSS to Clipboard",
+    "version": "1.0.0",
+
+    "description": "Copy CSS to File",
+    "icons": [
+        { "width": 96, "height": 96, "path": "icon.png" }
+    ],
+
     "host": {
         "app": "XD",
         "minVersion": "13.0.0"
     },
-    "version": "1.0.0",
+
     "uiEntryPoints": [
         {
             "type": "menu",
-            "label": "Create Rectangle",
-            "commandId": "createRectangle"
+            "label": "XD to CSS",
+            "commandId": "copy",
+            "shortcut": { "mac": "Cmd+Shift+Alt+C", "win": "Ctrl+Shift+Alt+C" }
         }
     ]
 }
